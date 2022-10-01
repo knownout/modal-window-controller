@@ -11,7 +11,8 @@ const packageConfig = {
         library: {
             name: "modal-window-controller",
             type: "umd"
-        }
+        },
+        clean: true
     },
 
     target: "web",
