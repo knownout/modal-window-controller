@@ -1,0 +1,33 @@
+{
+    "name": "@knownout/modal-window-controller",
+    "version": "0.1.1",
+    "author": "Alexandr <re-knownout> knownout@hotmail.com",
+    "license": "MIT",
+    "description": "Modal windows controller",
+    "main": "dist/modal-window-controller.js",
+    "typings": "dist/modal-window-controller.d.ts",
+    "keywords": [
+        "lib",
+        "utils",
+        "modal"
+    ],
+    "files": [
+        "dist",
+        "README.md"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/re-knownout/modal-window-controller.git",
+        "directory": "src/package"
+    },
+    "publishConfig": {
+        "access": "public"
+    },
+    "bugs": {
+        "url": "https://github.com/re-knownout/modal-window-controller/issues"
+    },
+    "homepage": "https://github.com/re-knownout/modal-window-controller#readme",
+    "dependencies": {
+        "mobx": "^6.6.2"
+    }
+}
