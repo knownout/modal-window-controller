@@ -1,7 +1,7 @@
 {
     "name": "@knownout/modal-window-controller",
     "version": "0.0.0",
-    "author": "Alexandr <re-knownout> knownout@hotmail.com",
+    "author": "Alexandr Slavinskii",
     "license": "MIT",
     "description": "Modal windows controller",
     "scripts": {
@@ -9,13 +9,13 @@
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/re-knownout/modal-window-controller.git",
+        "url": "git+https://github.com/knownout/modal-window-controller.git",
         "directory": "src/package"
     },
     "bugs": {
-        "url": "https://github.com/re-knownout/modal-window-controller/issues"
+        "url": "https://github.com/knownout/modal-window-controller/issues"
     },
-    "homepage": "https://github.com/re-knownout/modal-window-controller#readme",
+    "homepage": "https://github.com/knownout/modal-window-controller#readme",
     "devDependencies": {
         "@babel/core": "^7.18.2",
         "@types/jest": "^27.5.0",

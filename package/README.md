@@ -47,5 +47,5 @@ modalWindowController.getModalState("MyCoolModal"); // CLOSE
 modalWindowController.getModalState("OtherModal"); // NOT_CONNECTED
 ```
 
-re-knownout - https://github.com/re-knownout/
+re-knownout - https://github.com/knownout/
 <br>knownout@hotmail.com

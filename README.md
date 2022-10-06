@@ -2,7 +2,7 @@
 
 A simple utility mobx store for managing application modal windows.
 
-Documentation and use cases: https://github.com/re-knownout/modal-window-controller/tree/master/package
+Documentation and use cases: https://github.com/knownout/modal-window-controller/tree/master/package
 
-re-knownout - https://github.com/re-knownout/
+knownout - https://github.com/knownout/
 <br>knownout@hotmail.com
