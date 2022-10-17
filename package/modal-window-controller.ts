@@ -21,7 +21,7 @@ class ModalWindowController {
      * Время переключения модального окна со статуса CLOSING/OPENING
      * в статус CLOSE/OPEN, мс.
      */
-    @observable private modalChangeTime = 300;
+    @observable private modalChangeTime = 200;
 
     /**
      * Контроллер, управляющий всеми модальными окнами приложения, за исключением
