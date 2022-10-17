@@ -2,6 +2,7 @@ import { action, makeObservable, observable } from "mobx";
 
 export enum TModalWindowState {
     NOT_CONNECTED = "not_connected",
+    MOUNT = "mount",
     OPEN = "open",
     OPENING = "opening",
     CLOSE = "close",
@@ -79,9 +80,13 @@ class ModalWindowController {
     public openModal (key: string): void {
         if (!this.modalAvailable(key) || this.connectedModals[key] === TModalWindowState.OPEN) return;
 
-        this.changeModalState(key, TModalWindowState.OPENING);
+        this.changeModalState(key, TModalWindowState.MOUNT);
 
-        setTimeout(() => this.changeModalState(key, TModalWindowState.OPEN), this.modalChangeTime);
+        setTimeout(() => {
+            this.changeModalState(key, TModalWindowState.OPENING);
+
+            setTimeout(() => this.changeModalState(key, TModalWindowState.OPEN), this.modalChangeTime);
+        }, 30);
     }
 
     /**

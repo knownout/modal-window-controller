@@ -1,6 +1,6 @@
 {
     "name": "@knownout/modal-window-controller",
-    "version": "0.1.3",
+    "version": "0.1.4",
     "author": "Alexandr Slavinskii",
     "license": "MIT",
     "description": "Modal windows controller",

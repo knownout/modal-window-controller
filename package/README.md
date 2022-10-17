@@ -7,6 +7,7 @@ This controller supports five different modal window states:
 | State         | Description                              |
 |---------------|------------------------------------------|
 | OPEN          | Modal window open                        |
+| MOUNT         | Modal window mounted into DOM tree       |
 | OPENING       | Modal window opens                       |
 | CLOSE         | Modal window closed                      |
 | CLOSING       | Modal window closes                      |
@@ -22,11 +23,11 @@ modalWindowController.connectModalWindow("MyCoolWindow");
 modalWindowController.disconnectModalWindow("MyOldModal");
 ```
 
-Modal window state update rate *(CLOSING → CLOSE, OPENING → OPEN)*
-can be changed as follows *(default is 100ms)*:
+Modal window state update rate *(CLOSING → CLOSE, MOUNT → OPENING → OPEN)*
+can be changed as follows *(default is 300ms)*:
 
 ```ts
-modalWindowController.updateStateChangeTime(300);
+modalWindowController.updateStateChangeTime(600);
 ```
 
 Open and close methods can be used to change state of specific modal window.
